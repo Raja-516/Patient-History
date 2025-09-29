@@ -7,6 +7,10 @@
   background: #f4f4f4;
 }
 
+.nav{
+  display:flex;
+  justify-content:space-between
+}
 .exp {
   background: white;
   padding: 30px;
@@ -22,6 +26,7 @@
 }
 
 .login-form {
+  padding-top: 30px;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -32,6 +37,11 @@
   color: #555;
 }
 
+.design.active {
+  background: whitesmoke;
+  color: black;
+  font-weight: bold;
+}
 .login-form input {
   padding: 10px;
   border: 1px solid #ccc;
@@ -51,4 +61,15 @@
 
 .login-btn:hover {
   background: #0056b3;
+}
+
+.design{
+  border:none;
+  background-color:transparent;
+  font-size: 25px;
+}
+
+.design:hover{
+  color:#0056b3;
+  cursor:pointer
 }
