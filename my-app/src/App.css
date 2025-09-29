@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: space-between; /* spread logo, nav, login */
+  align-items: center;            /* vertical center */
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;  /* spacing between items */
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  list-style: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.nav li:hover {
+  color: aqua;
+}
+
+.login button {
+  padding: 6px 12px;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
