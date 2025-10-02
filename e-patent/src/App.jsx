@@ -19,7 +19,7 @@ function App() {
           <li><a href="">Link 3</a></li>
         </ul>
       
-      <div className='button'><button>Login</button>
+      <div className="butt"><button className='butto'>Login</button>
       <button className='button'>Make Appoinments</button></div>
      </div>
      <div className='app'>
@@ -63,14 +63,33 @@ function App() {
       <p className='pp'>Know the good habits for your life          </p>
       <div className="l"><IoIosArrowRoundForward /></div>
     </div>
-    
+  </div>
+
+  <div className="making">
+    <p>make easier way for your appointments ,it may take less than 5 minutes of time for your health</p>
+    <span ><button className='decc'>Make Apointment</button></span>
+  </div>
+
+    <div className="history">
+      <h2 className="nam">Patient Recent History</h2>
+      <div className="hic">
+        <div><h2>Fever</h2><span>1/10/2025 to 1/10/26</span></div>
+        <p>Dr.Radhika mam </p>
+      </div>
+      <div className="hic">
+        <div><h2>Fever</h2><span>1/10/2025 to 1/10/26</span></div>
+        <p>Dr.Radhika mam </p>
+      </div>
+      <div className="hic">
+        <div><h2>Fever</h2><span>1/10/2025 to 1/10/26</span></div>
+        <p>Dr.Radhika mam </p>
+      </div>
+    </div>
+   
 
 
 
   </div>
-    </div>
-    </>
-  )
-}
-
-export default App
+</>
+  );}
+export default App;
